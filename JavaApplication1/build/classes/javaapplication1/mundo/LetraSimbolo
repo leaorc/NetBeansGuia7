@@ -1,0 +1,380 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package primeraaplicacionjava;
+
+import java.util.Scanner;
+
+/**
+ *
+ * @author A309436
+ */
+public class tipoDatoss {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+    // Ejercicio 1: Tipos de variables
+    // Crear un proyecto de Java y definir al menos 6 variables en tu IDE de distintos tipos de datos.    
+               
+//      int numerico;
+      //float decimal;
+//      double otroDecimal;
+//      boolean logico;
+//      String texto;
+//      char caracter;      
+      
+    // Deteccion de errores
+//       String nombre;
+//       boolean bandera;
+//       char char_2; 
+      
+      
+    //EJERCICIO 2
+    //¿Recuerdas las variables que creaste en el ejercicio anterior? Ahora deberás asignarles un valor.
+//        texto = "Hola";
+//        numerico = 2;
+//        otroDecimal = 2.4;
+//        logico = true;
+//        caracter = 'P';        
+
+    // Deteccion de errores       
+//        int numero = 48;
+//        double decimales = 3.55;
+//        boolean bandera2 = false;
+        
+    
+    //EJERCICIO 3
+    //Define variables donde puedas alojar los resultados y prueba usar dos operadores de cada tipo.
+    
+//        double suma;
+//        double resta;
+//        double multiplicacion;
+//        double division;
+//        double modulo;
+//        
+//        boolean distinto;
+//        boolean mayorQue;
+//        boolean menorQue;
+//        
+//        int incremento = 1;
+//        int decremento = 10;      
+//
+//        
+//        
+//        suma = numero + decimales;
+//        System.out.println("La suma de " + numero + " mas " + decimales + " es: " + suma);
+//        
+//        resta = numero - decimales;
+//        System.out.println("La resta de " + numero + " menos " + decimales + " es: " + resta);
+//        
+//        multiplicacion = numero * decimales;
+//        System.out.println("La multiplicacion de " + numero + " por " + decimales + " es: " + multiplicacion);
+//        
+//        division = numero / decimales;
+//        System.out.println("La division de " + numero + " entre " + decimales + " es: " + division);
+//        
+//        modulo = numero % decimales;
+//        System.out.println("El modulo de " + numero + " y " + decimales + " es: " + modulo);
+//        
+//        distinto = numero != decimales;
+//        System.out.println("Es distinto " + numero + " de " + decimales + "?: " + distinto);
+//        
+//        mayorQue = numero > decimales;
+//        System.out.println("Es mayor " + numero + " que " + decimales + "?: " + mayorQue);
+//        
+//        menorQue = numero < decimales;
+//        System.out.println("Es menor " + numero + " que " + decimales + "?: " + menorQue);
+//        
+//        System.out.println("Vamos a incrementar " + incremento);
+//        incremento++;
+//        System.out.println("El resultado es: " + incremento);        
+//        
+//        System.out.println("Vamos a decrementar " + decremento);
+//        decremento--;
+//        System.out.println("El resultado es: " + decremento);  
+        
+        //EJERCICIO 4
+        //Define una variable que aloje tu nombre y otra que guarde tu edad. Imprime ambas variables por
+        //pantalla.
+        
+//        String nombre;
+//        int edad;
+//        
+//        nombre = "Luis";
+//        edad = 27;
+//        
+//        System.out.println("Mi nombre es: " + nombre + " y tengo " + edad + " años.");  
+
+        //EJERCICIO 5
+        //Define una variable de tipo boolean, double y char. Guarda información en ellas a través del
+        //Scanner.
+        
+//        boolean logico;
+//        double decimal;
+//        String caracter;
+//        
+//        Scanner leer = new Scanner(System.in);
+//        
+//        System.out.println("¿Eres un humano?"); 
+//        logico = leer.nextBoolean();
+//        System.out.println("Respuesta: " + logico); 
+//        
+//        System.out.println("Indica un numero decimal"); 
+//        decimal = leer.nextDouble();
+//        System.out.println("Respuesta: " + decimal); 
+//        
+//        System.out.println("Ingrese un texto"); 
+//        caracter = leer.next();
+//        System.out.println("Respuesta: " + caracter); 
+        
+        //Deteccion de errores
+//        
+//        Scanner leer = new Scanner(System.in);
+//        System.out.println("Ingresa tu nombre");
+//        String nombre = leer.next();
+//        System.out.println("Ingresa tu edad");
+//        int edad = leer.nextInt();
+        
+        //EJERCICIO 6
+        //Implementar un programa que le pida dos números enteros a usuario y determine si ambos o
+        //alguno de ellos es mayor a 25. 
+        
+//        int primerNumero;
+//        int segundoNumero;
+//        
+//        Scanner leer = new Scanner(System.in);        
+//        
+//        System.out.println("Ingrese el primer numero");
+//        primerNumero = leer.nextInt();
+//        
+//        System.out.println("Ingrese el segundo numero");
+//        segundoNumero = leer.nextInt();
+//        
+//        
+//        if (primerNumero > 25 && segundoNumero > 25) {
+//            System.out.println("El primer numero " + primerNumero + " y el segundo " + segundoNumero + " son mayores a 25");
+//        } else if (segundoNumero > 25) {
+//            System.out.println("El segundo numero " + segundoNumero + " es mayor a 25");
+//        } else if (primerNumero > 25) {
+//            System.out.println("El primer numero " + primerNumero + " es mayor a 25");
+//        } else {
+//            System.out.println("Ninguno de los numeros es mayor a 25");
+//        }
+  
+        //EJERCICIO 7
+        //Considera que estás desarrollando una web para una empresa que fabrica motores (suponemos
+        //que se trata del tipo de motor de una bomba para mover fluidos). Definir una variable tipoMotor y
+        //permitir que el usuario ingrese un valor entre 1 y 4. El programa debe mostrar lo siguiente:
+        //o Si el tipo de motor es 1, mostrar un mensaje indicando “La bomba es una bomba de agua”.
+        //o Si el tipo de motor es 2, mostrar un mensaje indicando “La bomba es una bomba de
+        //gasolina”.
+        //o Si el tipo de motor es 3, mostrar un mensaje indicando “La bomba es una bomba de
+        //hormigón”.
+        //o Si el tipo de motor es 4, mostrar un mensaje indicando “La bomba es una bomba de pasta
+        //alimenticia”.
+        //o Si no se cumple ninguno de los valores anteriores mostrar el mensaje “No existe un valor
+        //válido para tipo de bomba”            
+        
+        
+//        int tipoMotor;
+//        Scanner leer = new Scanner(System.in);
+//        
+//        
+//        System.out.println("Por favor ingrese el tipo del motor");
+//        tipoMotor = leer.nextInt();
+//        
+//        
+//        switch (tipoMotor) {
+//            case 1:
+//                System.out.println("La bomba es una bomba de agua");
+//                break;
+//            case 2:
+//                System.out.println("La bomba es una bomba de gasolina");
+//                break;
+//            case 3:
+//                System.out.println("La bomba es una bomba de hormigón");
+//                break;
+//            case 4:
+//                System.out.println("La bomba es una bomba de pasta alimenticia");
+//                break;
+//            default:
+//                System.out.println("No existe un valor válido para tipo de bomba");
+//
+//        }
+
+        //EJERCICIO 8
+        //Escriba un programa que valide si una nota está entre 0 y 10, sino está entre 0 y 10 la nota se
+        //pedirá de nuevo hasta que la nota sea correcta.
+        
+//        int nota = 0;
+//        Scanner leer = new Scanner(System.in);
+//
+//        while (nota > 9 || nota < 1) {
+//            System.out.println("Por favor ingrese un numero entre 0 y 10");
+//            nota = leer.nextInt();
+//
+//        }
+
+        //EJERCICIO 9
+        //Escriba un programa que lea 20 números. Si el número leído es igual a cero se debe salir del
+        //bucle y mostrar el mensaje "Se capturó el numero cero". El programa deberá calcular y mostrar el
+        //resultado de la suma de los números leídos, pero si el número es negativo no debe sumarse.
+        //Nota: recordar el uso de la sentencia break.        
+       
+//        int numero = 0;
+//        int contador = 0;
+//        int suma = 0;
+//        Scanner leer = new Scanner(System.in);
+//        
+//        do {
+//            System.out.println("Ingrese un numero");
+//            numero = leer.nextInt();
+//
+//            if (numero == 0) {
+//                break;
+//            }
+//
+//            if (numero > 0) {
+//                suma += numero;
+//            }
+//
+//            contador++;
+//
+//        } while (contador < 20);
+//        
+//        System.out.println("La suma de los numeros es: " + suma);
+
+
+        //EJERCICIO 10
+        //Realizar un programa que lea 4 números (comprendidos entre 1 y 20) e imprima el número
+        //ingresado seguido de tantos asteriscos como indique su valor. Por ejemplo:
+        //5 *****
+        //3 ***
+        //11 ***********
+        //2 **
+        
+//        int asteriscos;
+//        String valor;
+//        Scanner leer = new Scanner(System.in);
+//        
+//        for (int i = 0; i < 4; i++) {
+//            System.out.println("Ingrese un numero entre 1 y 20");
+//            asteriscos = leer.nextInt();
+//            valor = "";
+//            for (int j = 0; j < asteriscos; j++) {
+//                valor += "*";
+//            }
+//            
+//            System.out.println(asteriscos + " " + valor);
+//        }
+
+        
+
+
+        //EJERCICIO 12
+        //Crea un procedimiento EsMultiplo que reciba los dos números pasados por el usuario, validando
+        //que el primer numero múltiplo del segundo y e imprima si el primer numero es múltiplo del
+        //segundo, sino informe que no lo son.
+        
+//        Scanner leer = new Scanner(System.in);
+//        int primerNumero;
+//        int segundoNumero;
+//        
+//        System.out.println("Por favor ingrese un numero");
+//        primerNumero = leer.nextInt();
+//        System.out.println("Por favor ingrese otro numero");
+//        segundoNumero = leer.nextInt();
+//        
+//        EsMultiplo(primerNumero, segundoNumero);
+        
+        //EJERCICIO 13
+        //Crea un vector llamado ‘Equipo’ cuya dimensión sea la cantidad de compañeros de equipo y
+        //define su tipo de dato de tal manera que te permita alojar sus nombres más adelante. 
+        
+//        String[] equipo = new String[9];
+        
+        //EJERCICIO 14
+        //Utilizando un Bucle for, aloja en el vector Equipo, los nombres de tus compañeros de equipo
+        
+//        Scanner leer = new Scanner(System.in);
+//        
+//        for (int i = 0; i < 9; i++) {
+//            System.out.println("Ingrese el nombre de un integrante del equipo");
+//            equipo[i] = leer.nextLine();
+//        }       
+        
+    }
+    
+//    public static void EsMultiplo(int primerNumero, int segundoNumero) {
+//        
+//        int resultado;
+//        
+//        resultado = primerNumero % segundoNumero;
+//        
+//        if (resultado == 0) {
+//            System.out.println("El primer numero es multiplo del segundo");
+//        }else
+//            System.out.println("No son multiplos");
+//    }
+    
+    public static <T extends Number> Boolean validator(T value) { 
+    return value instanceof Long || value instanceof Integer; 
+
+//EJERCICIO 11
+        //Escribir un programa que procese una secuencia de caracteres ingresada por teclado y terminada
+        //en punto, y luego codifique la palabra o frase ingresada de la siguiente manera: cada vocal se
+        //reemplaza por el carácter que se indica en la tabla y el resto de los caracteres (incluyendo a las
+        //vocales acentuadas) se mantienen sin cambios.
+        //a e i o u
+        //@ # $ % *
+        //Realice un subprograma que reciba una secuencia de caracteres y retorne la codificación
+        //correspondiente. Utilice la estructura “según” para la transformación.
+        //Por ejemplo, si el usuario ingresa: Ayer, lunes, salimos a las once y 10.
+        //La salida del programa debería ser: @y#r, l*n#s, s@l$m%s @ l@s %nc# y 10.
+
+        Scanner leer = new Scanner(System.in);
+              
+        
+        System.out.println("Ingrese una secuencia de caracteres o frase");
+        String frase = leer.nextLine();
+        
+        string resultado = codificarFrase ( frase );
+        
+        System.out.println("Frase codificada: " + frase);
+}  
+    
+    public static String codificarFrase( String frase ){
+        char letra;
+        String fraseFinal = "";
+        
+        for (int i = 0; i < frase.length(); i++) {
+            letra = frase.toLowerCase().substring(i, i).charAt(0); 
+            
+            switch (letra) {
+                case 'a':
+                    letra = '@';
+                    break;
+                case 'e':
+                    letra = '#';
+                    break;
+                case 'i':
+                    letra = '$';
+                    break;
+                case 'o':
+                    letra = '%';
+                    break;
+                case 'u':
+                    letra = '*';
+                    break; 
+            }
+            
+            fraseFinal += letra; 
+        }
+        
+        return fraseFinal;
+    }
+}
