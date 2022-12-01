@@ -42,8 +42,9 @@ programa, caso contrario se vuelve a mostrar el menú.*/
         boolean s = false;
 
         
-        try {
+        
             do {
+                try {
                 
                 System.out.println("MENU\n"
                 + "1. Sumar\n"
@@ -75,12 +76,13 @@ programa, caso contrario se vuelve a mostrar el menú.*/
                     System.out.println("El numero ingresado no es una opcion correcta");
 
             }
-            } while(!s);
-
-        } catch (InputMismatchException e) {
+            } catch (InputMismatchException e) {
             System.out.println("Debes ingresar un numero");
             leer.next();
         }
+            } while(!s);
+
+        
 
     }
 

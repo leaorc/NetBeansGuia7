@@ -22,7 +22,7 @@ fecha de nacimiento debe guardarse en un Date y los guarda en el objeto.
         Persona P = new Persona();
         System.out.println("Ingrese su nombre completo");
         P.setNombre(leer.next());
-        System.out.println("Ingrese su fecha de nacimiento (dd/mm/yyyy)");
+        System.out.println("Ingrese su fecha de nacimiento (dd/MM/yyyy)");
         SimpleDateFormat fechaN = new SimpleDateFormat("dd/MM/yyyy");
         
         Date fechaNueva = fechaN.parse(leer.next());
